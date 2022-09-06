@@ -1,0 +1,32 @@
+.box-first{
+	border: solid 5px black;
+	font-size: 13px;
+	width: 50%;
+	height: 70%;
+	transform: translate(150px, 150px);
+	border-radius: 9px;
+}
+
+.title_input{
+	font-weight: bold;
+	text-align: right;
+	font-weight: bold;
+}
+
+#name_client{
+	
+}
+#password{
+	border-radius: 8px;
+	border-color: black;
+}
+
+#button{
+	border-radius: 8px;
+
+}
+
+.standard_feature{
+	border-radius: 4px;
+	border-color:black ;
+}

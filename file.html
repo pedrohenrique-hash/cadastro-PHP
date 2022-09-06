@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+<div class="box-first">
+    
+<form method="POST" action="http://localhost/index.php" name="name_form" 
+onSubmit="return valida_dados(this)">
+  <P>
+    <label class="title_input"> Nome do Cliente </label> <br>
+    <input type="text" name="name_client" value="Ex: Carlos" id="name_client" size="20" 
+    class="standard_feature">
+  </P>
+
+  <p>
+    <label class="title_input"> E-mail</label> <br>
+    <input type="email" name="email_client" value="" id="email_client" size="20" 
+      class="standard_feature">
+  </p>
+   <br>
+  <p>
+    <label class="title_input">Estado</label>
+    <select size="1" name="state_clinet" class="standard_feature">
+      <option value="AC">AC</option>
+      <option value="AL">AL</option>
+      <option value="AM">AM</option>
+      <option value="AP">AP</option>
+      <option value="BA">BA</option>
+      <option value="CE">CE</option>
+      <option value="DF">DF</option>
+      <option value="ES">ES</option>
+      <option value="GO">GO</option>
+      <option value="MA">MA</option>
+      <option value="MG">MG</option>
+      <option value="MS">MS</option>
+      <option value="MT">MT</option>
+      <option value="PA">PA</option>
+      <option value="PB">PB</option>
+      <option value="PE">PE</option>
+      <option value="PI">PI</option>
+      <option value="PR">PR</option>
+      <option value="RJ">RJ</option>
+      <option value="RN">RN</option>
+      <option value="RO">RO</option>
+      <option value="RR">RR</option>
+      <option value="RS">RS</option>
+      <option value="SC">SC</option>
+      <option value="SE">SE</option>
+      <option value="SP">SP</option>
+      <option value="TO">TO</option>
+    </select>
+  </p><br>
+
+  <p>
+    <label class="title_input">Login</label>
+    <input type="text" name="login_client" id="login_client" size="20" 
+    class="standard_feature">
+  </p><br>
+
+  <p>
+    <label class="title_input">Senha</label>
+    <input type="password" name="password_client" id="password_client" size="20" 
+    class="standard_feature">
+
+  </p>
+
+  <p>
+    <label class="title_input"> Confirmar senha </label>
+    <input type="password" name="confirm_password_client" size="20" id = "confirm_password_client">
+  </p>
+  <br>
+   <input type="submit" name="button" value="OK">
+   
+</form>
+</div>
+ <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
